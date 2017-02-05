@@ -1,0 +1,15 @@
+/Users/mac/Desktop/mapTest/iOS/obj/iPhone/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/mac/Desktop/mapTest/iOS/obj/iPhone/Debug/ibtool/_BundleResourceWithLogicalName.items
+/Users/mac/Desktop/mapTest/iOS/obj/iPhone/Debug/actool/_PartialAppManifest.items
+/Users/mac/Desktop/mapTest/iOS/obj/iPhone/Debug/actool/_BundleResourceWithLogicalName.items
+/Users/mac/Desktop/mapTest/iOS/obj/iPhone/Debug/build-iphone5.2-10.0.2/optimized/
+/Users/mac/Desktop/mapTest/iOS/bin/iPhone/Debug/mapTest.iOS.exe.mdb
+/Users/mac/Desktop/mapTest/iOS/bin/iPhone/Debug/mapTest.iOS.exe
+/Users/mac/Desktop/mapTest/iOS/obj/iPhone/Debug/mapTest.iOS.exe
+/Users/mac/Desktop/mapTest/iOS/obj/iPhone/Debug/mapTest.iOS.exe.mdb
+/Users/mac/Desktop/mapTest/iOS/bin/iPhone/Debug/Xamarin.Forms.Core.dll
+/Users/mac/Desktop/mapTest/iOS/bin/iPhone/Debug/Xamarin.Forms.Platform.dll
+/Users/mac/Desktop/mapTest/iOS/bin/iPhone/Debug/Xamarin.Forms.Platform.iOS.dll
+/Users/mac/Desktop/mapTest/iOS/bin/iPhone/Debug/Xamarin.Forms.Xaml.dll
+/Users/mac/Desktop/mapTest/iOS/bin/iPhone/Debug/mapTest.dll
+/Users/mac/Desktop/mapTest/iOS/bin/iPhone/Debug/mapTest.dll.mdb
