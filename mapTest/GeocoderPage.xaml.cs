@@ -31,10 +31,16 @@ namespace mapTest
 				}
 			};
 
-			var b2 = new Button { Text = "Geocode '394 Pacific Ave'" };
+			var b2 = new Button { Text = "Geocode '我家地址'" };
 			b2.Clicked += async (sender, e) =>
 			{
-				var xamarinAddress = "394 Pacific Ave, San Francisco, California";
+				//var xamarinAddress = "394 Pacific Ave, San Francisco, California";
+				var xamarinAddress = "台北市文山區辛亥路四段77巷92弄9號";
+
+				//景點無法
+				//var xamarinAddress = "阿里山";
+
+
 				var approximateLocation = await geoCoder.GetPositionsForAddressAsync(xamarinAddress);
 				foreach (var p in approximateLocation)
 				{
@@ -42,6 +48,7 @@ namespace mapTest
 				}
 			};
 
+			// Put the page together
 			Content = new StackLayout
 			{
 				Padding = new Thickness(0, 20, 0, 0),

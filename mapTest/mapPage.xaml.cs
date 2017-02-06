@@ -72,7 +72,9 @@ namespace mapTest
 
 
 			// put the page together
-			var stack = new StackLayout { Spacing = 0 };
+			var stack = new StackLayout { 
+				Spacing = 0 
+			};
 			stack.Children.Add(map);
 			stack.Children.Add(slider);
 			stack.Children.Add(segments);

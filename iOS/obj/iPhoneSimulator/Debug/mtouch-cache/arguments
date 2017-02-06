@@ -43,6 +43,8 @@
 	-r \
 	/Users/mac/Downloads/mapTest-master/packages/Xamarin.Forms.Maps.2.3.3.175/lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll \
 	-r \
+	/Users/mac/Downloads/mapTest-master/packages/XLabs.Core.2.0.5782/lib/Xamarin.iOS10/XLabs.Core.dll \
+	-r \
 	/Users/mac/Downloads/mapTest-master/mapTest/bin/Debug/mapTest.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
@@ -315,7 +317,19 @@
 	-r \
 	/Users/mac/Downloads/mapTest-master/packages/Xamarin.Forms.Maps.2.3.3.175/lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll \
 	-r \
+	/Users/mac/Downloads/mapTest-master/packages/XLabs.Core.2.0.5782/lib/Xamarin.iOS10/XLabs.Core.dll \
+	-r \
 	/Users/mac/Downloads/mapTest-master/mapTest/bin/Debug/mapTest.dll \
+	-r \
+	/Users/mac/Downloads/mapTest-master/mapTest/bin/Debug/XLabs.Forms.dll \
+	-r \
+	/Users/mac/Downloads/mapTest-master/mapTest/bin/Debug/XLabs.Platform.dll \
+	-r \
+	/Users/mac/Downloads/mapTest-master/mapTest/bin/Debug/XLabs.Serialization.dll \
+	-r \
+	/Users/mac/Downloads/mapTest-master/mapTest/bin/Debug/XLabs.Ioc.dll \
+	-r \
+	/Users/mac/Downloads/mapTest-master/mapTest/bin/Debug/ExifLib.dll \
 	--target-framework \
 	"Xamarin.iOS,v1.0" \
 	/Users/mac/Downloads/mapTest-master/iOS/bin/iPhoneSimulator/Debug//mapTest.iOS.exe \

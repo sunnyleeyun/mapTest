@@ -5,8 +5,8 @@ using Xamarin.Forms.Maps;
 using System;
 using System.Collections.Generic;
 
-using Xamarin.Forms;
 using System.Threading.Tasks;
+using XLabs;
 
 namespace mapTest
 {
@@ -14,47 +14,44 @@ namespace mapTest
 	{
 		public PopUpPage()
 		{
-			var button = new Button
-			{
-				Text = "Open popup"
-			};
 
-			var popup = new XLabs.Forms.Controls.PopupLayout
-			{
-				Content = new StackLayout
-				{
-					VerticalOptions = LayoutOptions.Center,
-					Children =
-				{
-					button
-				}
-				}
-			};
-
-			var label = new Label()
-			{
-				HeightRequest = 100,
-				WidthRequest = 200
-			};
-
-			button.Clicked += async (sender, e) =>
-				{
-					button.IsEnabled = false;
-					popup.ShowPopup(label);
-					for (var i = 0; i < 5; i++)
-					{
-						label.Text = string.Format("Disappearing in {0}s...", 5 - i);
-						await Task.Delay(1000);
-					}
-					popup.DismissPopup();
-					button.IsEnabled = true;
-				};
-
-			// The root page of your application
-			//Content = new PopUpPage
-			//{
-			//	Content = popup
-			//};
+			InitializeComponent();
 		}
+		protected override void OnAppearing()
+		{
+			base.OnAppearing();
+		}
+
+		protected override void OnDisappearing()
+		{
+			base.OnDisappearing();
+		}
+
+		// Method for animation child in PopupPage
+		// Invoced after custom animation end
+		protected virtual Task OnAppearingAnimationEnd()
+		{
+			return Content.FadeTo(0.5);
+		}
+
+		// Method for animation child in PopupPage
+		// Invoked before custom animation begin
+		protected virtual Task OnDisappearingAnimationBegin()
+		{
+			return Content.FadeTo(1); ;
+		}
+
+		protected override bool OnBackButtonPressed()
+		{
+			// Prevent hide popup
+			//return base.OnBackButtonPressed();
+			return true;
+		}
+
 	}
+
+
+
 }
+}
+

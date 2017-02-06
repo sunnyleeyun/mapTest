@@ -29,3 +29,9 @@
 /Users/mac/Downloads/mapTest-master/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Maps.iOS.dll
 /Users/mac/Downloads/mapTest-master/iOS/bin/iPhoneSimulator/Debug/mapTest.dll
 /Users/mac/Downloads/mapTest-master/iOS/bin/iPhoneSimulator/Debug/mapTest.dll.mdb
+/Users/mac/Downloads/mapTest-master/iOS/bin/iPhoneSimulator/Debug/XLabs.Core.dll
+/Users/mac/Downloads/mapTest-master/iOS/bin/iPhoneSimulator/Debug/XLabs.Forms.dll
+/Users/mac/Downloads/mapTest-master/iOS/bin/iPhoneSimulator/Debug/XLabs.Platform.dll
+/Users/mac/Downloads/mapTest-master/iOS/bin/iPhoneSimulator/Debug/XLabs.Serialization.dll
+/Users/mac/Downloads/mapTest-master/iOS/bin/iPhoneSimulator/Debug/XLabs.Ioc.dll
+/Users/mac/Downloads/mapTest-master/iOS/bin/iPhoneSimulator/Debug/ExifLib.dll

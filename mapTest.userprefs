@@ -1,13 +1,13 @@
 ﻿<Properties StartupConfiguration="{0FFD8AB1-D5A6-4F1D-9783-5EE89B2489CA}|Default">
   <MonoDevelop.Ide.ItemProperties.mapTest.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.92D2E570-63DD-4AA0-B18E-3C29E752DEA8" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="mapTest/PinPage.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="mapTest/PopUpPage.xaml.cs">
     <Files>
-      <File FileName="mapTest/App.xaml.cs" Line="30" Column="4" />
+      <File FileName="mapTest/App.xaml.cs" Line="25" Column="4" />
       <File FileName="mapTest/mapPage.xaml" Line="12" Column="11" />
-      <File FileName="mapTest/mapPage.xaml.cs" Line="79" Column="11" />
-      <File FileName="mapTest/PinPage.xaml.cs" Line="11" Column="1" />
-      <File FileName="mapTest/GeocoderPage.xaml.cs" Line="7" Column="1" />
-      <File FileName="mapTest/PopUpPage.xaml.cs" Line="56" Column="15" />
+      <File FileName="mapTest/mapPage.xaml.cs" Line="83" Column="4" />
+      <File FileName="mapTest/PinPage.xaml.cs" Line="33" Column="4" />
+      <File FileName="mapTest/GeocoderPage.xaml.cs" Line="40" Column="11" />
+      <File FileName="mapTest/PopUpPage.xaml.cs" Line="48" Column="16" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
