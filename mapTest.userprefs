@@ -7,7 +7,7 @@
       <File FileName="mapTest/mapPage.xaml.cs" Line="83" Column="4" />
       <File FileName="mapTest/PinPage.xaml.cs" Line="33" Column="4" />
       <File FileName="mapTest/GeocoderPage.xaml.cs" Line="40" Column="11" />
-      <File FileName="mapTest/PopUpPage.xaml.cs" Line="48" Column="16" />
+      <File FileName="mapTest/PopUpPage.xaml.cs" Line="54" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
